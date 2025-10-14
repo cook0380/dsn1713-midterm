@@ -3,15 +3,18 @@
 /* Set custom variables here */
 
 :root {
-  --primary: #002609;
+  --bs-primary: #2e483a;
+  --bs-primary-rgb: 36, 32, 55;
 }
 
-nav {
-  background-color: var(--primary-color);
+.bg-primary {background-color:
+  var(--bs-primary)
 }
+
+
 
 .navbar-brand {
-  color: var(--primary-color)
+  color: var(--bs-primary)
 }
 
 body {
@@ -55,3 +58,27 @@ section:not(#hero):not(#cta){
     padding: 100px 0;
   }
 }
+
+ul {
+  list-style-type: none;
+}
+
+This CSS rule targets all <ul> elements and sets their list-style-type to none, effectively removing the bullet points.
+You can also apply this to a specific <ul> by using a class or ID:
+Code
+
+<ul class="no-bullets">
+  <li>Item 1</li>
+  <li>Item 2</li>
+</ul>
+
+Code
+
+.no-bullets {
+  list-style-type: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
