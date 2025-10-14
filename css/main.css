@@ -2,12 +2,16 @@
 
 /* Set custom variables here */
 
+:root {
+  --primary-color: #002609;
+}
 
-
-
+nav {
+  background-color: var(--primary-color);
+}
 
 .navbar-brand {
-  color: #F6F3ED;
+  color: var(--primary-color)
 }
 
 body {
