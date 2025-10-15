@@ -6,12 +6,12 @@
   --bs-primary: #2e483a;
   --bs-primary-rgb: 46, 72, 58;
   --body-bg: #F6F3ED;
-  --body-bg: rgb(246, 243, 237);
+  --body-bg-rgb: 246, 243, 237;
   --bs-light: #f6f3ed;
-  --bs-light: rgb(246, 243, 237);
+  --bs-light-rgb: 246, 243, 237;
 
   --bs-navbar-active-color: #F6F3ED;
-  --bs-navbar-active-color: rgb(246, 243, 237);
+  --bs-navbar-active-color-rgb: 246, 243, 237;
 }
 
 #hero #content
