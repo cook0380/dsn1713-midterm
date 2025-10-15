@@ -4,14 +4,34 @@
 
 :root {
   --bs-primary: #2e483a;
-  --bs-primary-rgb: 36, 32, 55;
+  --bs-primary-rgb: 46, 72, 58;
+  --body-bg: #F6F3ED;
+  --body-bg: rgb(246, 243, 237);
+  --bs-light: #f6f3ed;
+  --bs-light: rgb(246, 243, 237);
+
+  --bs-navbar-active-color: #F6F3ED;
+  --bs-navbar-active-color: rgb(246, 243, 237);
 }
 
-.bg-primary {background-color:
-  var(--bs-primary)
+#hero #content
+{
+max-width: 90ch;
 }
 
+.btn-primary {
+  --bs-btn-color: var(--body-bg);
+  --bs-btn-bg: var(--bs-primary);
+  --bs-btn-border-color: var(--bs-primary);
+  --bs-btn-hover-color: var(--bs-primary);
+  --bs-btn-hover-bg: var(--body-bg);
+  --bs-btn-hover-border-color: var(--bs-primary);
+  --bs-btn-focus-shadow-rgb: var(--bs-primary);
+  --bs-btn-active-color: var(--bs-primary);
+  --bs-btn-active-bg: var(--bs-primary);
+  --bs-btn-active-border-color: var(--bs-primary);
 
+}
 
 .navbar-brand {
   color: var(--bs-primary)
@@ -63,7 +83,7 @@ ul {
   list-style-type: none;
 }
 
-This CSS rule targets all <ul> elements and sets their list-style-type to none, effectively removing the bullet points.
+/* This CSS rule targets all <ul> elements and sets their list-style-type to none, effectively removing the bullet points.
 You can also apply this to a specific <ul> by using a class or ID:
 Code
 
@@ -72,7 +92,7 @@ Code
   <li>Item 2</li>
 </ul>
 
-Code
+Code */
 
 .no-bullets {
   list-style-type: none;
